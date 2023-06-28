@@ -6,6 +6,7 @@ from .forms import CommentForm
 from .forms import EmailPostForm
 from taggit.models import Tag
 from django.views.decorators.http import require_POST
+from django.db.models import Count
 
 
 def post_list(request, tag_slug= None):
@@ -33,10 +34,6 @@ def post_list(request, tag_slug= None):
         {'posts': posts, 'tag': tag})
 
 def post_detail(request, year, month, day, post):
-    # try:
-    #     post = Post.published.get(id=id)
-    # except Post.DoesNotExist:
-    #     raise Http404("No Post found.")
     
     post = get_object_or_404(Post,
         status=Post.Status.PUBLISHED,
@@ -50,9 +47,16 @@ def post_detail(request, year, month, day, post):
     # Form for users to comment
     form = CommentForm()
 
+    # List of similar posts
+    post_tags_ids = post.tags.values_list('id', flat=True)
+    similar_posts = Post.published.filter(tags__in=post_tags_ids)\
+            .exclude(id=post.id)
+    similar_posts = similar_posts.annotate(same_tags=Count('tags'))\
+            .order_by('-same_tags','-publish')[:4]
+
     return render(request,
     'blog/post/detail.html',
-    {'post': post, 'comments': comments, 'form': form})
+    {'post': post, 'comments': comments, 'form': form, 'similar_posts': similar_posts})
 
 
 @require_POST

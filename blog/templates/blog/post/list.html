@@ -1,6 +1,8 @@
 {% extends "blog/base.html" %}
 {% block title %}My Blog{% endblock %}
 {% block content %}
+{% load blog_tags %}
+
 <h1>My Blog</h1>
 
 {%if tag%}
@@ -26,7 +28,8 @@
     <p class="date">
         Published {{ post.publish }} by {{ post.author }}
     </p>
-    {{ post.body|safe|truncatewords:30|linebreaks }}
+    {{ post.body|markdown|truncatewords_html:30 }}
+    <!-- {{ post.body|safe|truncatewords:30|linebreaks }} -->
     {% endfor %}
     {% include "pagination.html" with page=posts %}
     {% endblock %}
