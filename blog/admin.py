@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import Post, Comment
+from .models import Image
 
 
 @admin.register(Post)
@@ -19,3 +20,8 @@ class CommentAdmin(admin.ModelAdmin):
     list_filter= ['active', 'created', 'updated']
     search_fields =['name', 'email', 'body']
     
+
+class imageAdmin(admin.ModelAdmin):
+    list_display = ["title", "photo"]
+
+admin.site.register(Image, imageAdmin)

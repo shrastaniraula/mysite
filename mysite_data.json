@@ -1,0 +1,958 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-06-16T08:45:35.266Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "The Power of Blogging: Why Blogs Are Important in Today's Digital World",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-06-17T06:10:29.137Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "The Power of Blogging: Why Blogs Are Important in Today's Digital World",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-06-25T10:17:19.715Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "The Power of Blogging: Why Blogs Are Important in Today's Digital World",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-06-26T05:17:33.267Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "who is mother teressa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-06-26T05:17:58.049Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "who is mother teressa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-06-26T06:25:36.665Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "New Blog",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-06-26T06:26:48.109Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "ANother blog",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-06-26T07:59:49.010Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Shrasta Niraula on who is mother teressa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-06-26T10:56:51.995Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "try post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-06-28T05:30:07.731Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "New Blog",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-06-28T05:30:15.599Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "New Blog",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-06-28T05:30:32.851Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "ANother blog",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-06-29T05:31:29.653Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "hii new post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-06-29T05:33:52.642Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "hii new post",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-06-29T05:34:30.243Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "new hi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$aK1wY5DIEFDCCaAiSFU1Lv$9aWmcUfIzN+mLm/Etjx+XR3o7r+Akp3aWXnB0iYs8mM=",
+    "last_login": "2023-06-25T07:44:28.184Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-06-16T08:20:35.522Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9lyr1li1ba7j7kskivjtdm0uhlp34nim",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln22nHWlPQ5g7XrtUkAJVI-FeLuJFIKaGfmvbdKtK192pYyp0HUVVl1-WVM-VnGQ8iDxvuk8zSu88D6SPRpF91NUl63s_076Gnp9zViqewFG2CkFqtxNWYq6FCgAYcQnRPgaKMnrD5ya4MxQWCnnkOrPl_dMzcr:1qA4hs:pzSj8KuKFAQ78-zku9Ozvphl4krJHky82b1gwSOhA9c",
+    "expire_date": "2023-06-30T08:21:20.996Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yx72q8yhnhmaw12axs1npfkis2x7k5b6",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln22nHWlPQ5g7XrtUkAJVI-FeLuJFIKaGfmvbdKtK192pYyp0HUVVl1-WVM-VnGQ8iDxvuk8zSu88D6SPRpF91NUl63s_076Gnp9zViqewFG2CkFqtxNWYq6FCgAYcQnRPgaKMnrD5ya4MxQWCnnkOrPl_dMzcr:1qDKQ8:PKvL-fK9d_EiJ8lmJiNcDnG3HMXxBZtTVD6k0ip3Zx4",
+    "expire_date": "2023-07-09T07:44:28.192Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "The Power of Blogging: Why Blogs Are Important in Today's Digital World",
+    "slug": "blog",
+    "author": 1,
+    "body": "In the era of rapidly evolving digital communication, blogs have emerged as an influential and essential tool for individuals and businesses alike. With millions of blogs available on virtually any topic imaginable, you might wonder why blogs are so important. In this article, we will explore the significance of blogs in today's digital landscape and shed light on why they continue to play a crucial role in our online interactions.\r\n\r\nInformation and Knowledge Sharing:\r\nBlogs serve as a platform for individuals to share their thoughts, experiences, expertise, and knowledge with a global audience. Whether it's a personal blog documenting travel adventures or a professional blog offering industry insights, blogs have become a valuable source of information. Readers can learn from experts, gain new perspectives, and stay updated on the latest trends and developments in various fields.\r\n\r\nBuilding and Engaging Communities:\r\nBlogs have the power to bring like-minded people together, fostering a sense of community and connection. By providing a platform for discussions, comments, and interactions, blogs facilitate engagement and encourage readers to share their thoughts, experiences, and opinions. This interactive nature of blogs enables the formation of virtual communities, where individuals can connect, learn from each other, and find support.\r\n\r\nEstablishing Credibility and Authority:\r\nMaintaining an informative and well-written blog allows individuals and businesses to establish themselves as credible and authoritative sources in their respective domains. When a blog consistently delivers valuable content, readers begin to trust the author's expertise and rely on their insights. This credibility can lead to various opportunities, such as collaborations, speaking engagements, and partnerships, ultimately enhancing personal or brand reputation.\r\n\r\nDriving Website Traffic and SEO Benefits:\r\nBlogs play a crucial role in driving traffic to websites. By regularly updating your blog with fresh and relevant content, you increase the chances of attracting visitors who are interested in what you have to offer. Additionally, search engines value fresh and informative content, and regularly updated blogs can help improve search engine rankings. Well-optimized blog posts with relevant keywords and backlinks can significantly enhance your website's visibility and organic search traffic.\r\n\r\nPersonal and Professional Development:\r\nBlogging provides a platform for personal and professional growth. Through consistent writing, bloggers enhance their communication skills, expand their knowledge, and refine their expertise in specific areas. Blogging encourages research, critical thinking, and the ability to articulate ideas effectively. It also allows individuals to showcase their creativity, explore new topics, and gain a deeper understanding of their passions.\r\n\r\nMonetization and Business Opportunities:\r\nFor businesses, blogs offer a range of monetization opportunities. By providing valuable content, businesses can attract a loyal audience, which can be leveraged for advertising, sponsored posts, affiliate marketing, or even launching and selling their products or services directly. Blogs can also serve as a powerful tool for building brand awareness, generating leads, and establishing a strong online presence.\r\n\r\nConclusion:\r\nIn today's digital world, blogs have proven to be a transformative force. They serve as a platform for sharing knowledge, building communities, establishing credibility, driving website traffic, fostering personal and professional growth, and unlocking business opportunities. Whether you're an individual looking to express your thoughts or a business aiming to expand your reach, a blog can be an invaluable asset. So, embrace the power of blogging and harness its potential to make a lasting impact in the online sphere.",
+    "publish": "2023-06-16T08:35:15Z",
+    "created": "2023-06-16T08:45:35.262Z",
+    "updated": "2023-06-25T10:17:19.715Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "who is mother teressa",
+    "slug": "who-is-mother-teressa",
+    "author": 1,
+    "body": "This is a new blog about her. In a feud, she stole her neighbor's dog and dyed it key lime green.",
+    "publish": "2023-06-26T05:15:01Z",
+    "created": "2023-06-26T05:17:33.264Z",
+    "updated": "2023-06-26T05:17:58.043Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "New Blog",
+    "slug": "new-blog",
+    "author": 1,
+    "body": "<p>This is a new post</p>",
+    "publish": "2023-06-26T06:25:08Z",
+    "created": "2023-06-26T06:25:36.663Z",
+    "updated": "2023-06-28T05:30:15.599Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "ANother blog",
+    "slug": "another-blog",
+    "author": 1,
+    "body": "<p>Just another blog for testing purposes. We have nothing to display. lo siento</p>",
+    "publish": "2023-06-26T06:25:45Z",
+    "created": "2023-06-26T06:26:48.108Z",
+    "updated": "2023-06-28T05:30:32.833Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "try post",
+    "slug": "try-post",
+    "author": 1,
+    "body": "<p><u><em><strong>hi a new post&nbsp;</strong></em></u></p>\r\n\r\n<p>helllo today is <s>sunday</s> monday<img alt=\"smiley\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png\" style=\"height:23px; width:23px\" title=\"smiley\" /></p>",
+    "publish": "2023-06-26T10:54:44Z",
+    "created": "2023-06-26T10:56:51.985Z",
+    "updated": "2023-06-26T10:56:51.985Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "new hi",
+    "slug": "new-hi",
+    "author": 1,
+    "body": "*Emphasized*\r\n**more**",
+    "publish": "2023-06-29T05:33:58Z",
+    "created": "2023-06-29T05:34:30.233Z",
+    "updated": "2023-06-29T05:34:30.233Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 2,
+    "name": "Shrasta Niraula",
+    "email": "shrastatsarhs58@gmail.com",
+    "body": "I quite dont understand",
+    "created": "2023-06-26T07:59:48.995Z",
+    "updated": "2023-06-26T07:59:48.995Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 4,
+    "name": "Shrasta Niraula",
+    "email": "shrastatsarhs58@gmail.com",
+    "body": "new comment",
+    "created": "2023-06-26T08:28:56.891Z",
+    "updated": "2023-06-26T08:28:56.891Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 2,
+    "name": "san",
+    "email": "hi@gmail.com",
+    "body": "uno",
+    "created": "2023-06-26T09:43:52.857Z",
+    "updated": "2023-06-26T09:43:52.857Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 2,
+    "name": "1",
+    "email": "SHN0452@my.londonmet.ac.uk",
+    "body": "ertyuio",
+    "created": "2023-06-26T09:49:30.083Z",
+    "updated": "2023-06-26T09:49:30.083Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 5,
+    "name": "Shrasta Niraula",
+    "email": "shrastatsarhs58@gmail.com",
+    "body": "new comment",
+    "created": "2023-06-26T11:11:28.256Z",
+    "updated": "2023-06-26T11:11:28.256Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "try",
+    "slug": "try"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+}
+]
